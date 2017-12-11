@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import ListContacts from './ListContacts';
+import IngredientList from './IngredientList';
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -24,6 +26,8 @@ const contacts = [
   }
 ]
 
+const ingredient = {"items":[{"id":"a"},{"id":"b"},{"id":"c"}]};
+
 class App extends Component {
 
   render() {
@@ -38,6 +42,7 @@ class App extends Component {
         </p> */}
 
         <ListContacts contacts={contacts}/>
+        <IngredientList items={ingredient.items} />
       </div>
     );
   }
