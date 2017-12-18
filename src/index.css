@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
   box-sizing: border-box;
 }
@@ -7,10 +8,13 @@ html {
 html, body, .root {
   height: 100%;
 }
+=======
+>>>>>>> 3a06ee442ef0fe95b4288e73d935b4588ee11442
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+<<<<<<< HEAD
   line-height: 1.5;
 }
 body, .app {
@@ -185,4 +189,6 @@ body, .app {
   vertical-align: middle;
   cursor: pointer;
   outline: none;
+=======
+>>>>>>> 3a06ee442ef0fe95b4288e73d935b4588ee11442
 }
