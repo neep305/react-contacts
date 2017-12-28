@@ -21,6 +21,14 @@ class ListContacts extends Component {
         const { contacts, onDeleteContact } = this.props
         const { query } = this.state
 
+        let showingContacts
+        if (query) {
+            const match = new RegExp(escapeRegExp(query), 'i')
+            showingContacts = contacts.filter((contact) => match.test(contact.name))
+        } else {
+            showingContacts = contacts
+        }
+          
         return (
             <div className='list-contacts'>
                 <div className='list-contacts-top'>

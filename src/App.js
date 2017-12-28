@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    ContactAPI.getAll().then((contact) => {
+    ContactAPI.getAll().then((contacts) => {
       this.setState({contacts})
     })
   }
@@ -34,6 +34,9 @@ class App extends Component {
           <ListContacts
             contacts={this.state.contacts}
             onDeleteContact={this.removeContact}
+            onNavigate={() => {
+              this.setState({ screen: 'create'})
+            }}
           />
         )}
 
