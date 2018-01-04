@@ -1,5 +1,10 @@
 # React-contacts
 
+### Start Server
+```
+$ npm start
+```
+
 ### Installing backend server
 ```
 $ git clone https://github.com/udacity/reactnd-contacts-server.git
