@@ -23,3 +23,9 @@ $ npm install --save form-serialize
 ```
 
 ### Using backend server
+
+### Using Redux
+- shared state
+
+- the store : it contains an application's global state, all held in a single objec tree
+
