@@ -29,3 +29,4 @@ $ npm install --save form-serialize
 
 - the store : it contains an application's global state, all held in a single objec tree
 
+props & state
