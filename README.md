@@ -29,6 +29,7 @@ $ npm install --save form-serialize
 
 - the store : it contains an application's global state, all held in a single objec tree
 
+<<<<<<< HEAD
 ### Pure Function
 
 ### What is Functional Programming?
@@ -49,3 +50,6 @@ iceCreamStats.reducer((accumulator,currentValue) => {
 },0)
 ```
 
+=======
+props & state
+>>>>>>> f1aacfcd6186a32e54f6ccd97f60ee98b8a6a98c
