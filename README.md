@@ -1,5 +1,16 @@
 # React-contacts
 
+### Create React App
+> If not installed create-react-app module 
+``` sh
+$ npm install -g create-react-app
+```
+
+> Create new project 
+```
+create-react-app <Project Name What You want>
+```
+
 ### Start Server
 ```
 $ npm start
