@@ -18,7 +18,7 @@ $ npm install react-router-dom
 ```
 
 ### Serialize The Form Data
-```
+``` sh
 $ npm install --save form-serialize
 ```
 
@@ -30,7 +30,7 @@ $ npm install --save form-serialize
 - the store : it contains an application's global state, all held in a single objec tree
 
 ### Pure Function
-```
+``` javascript
 var square = x => ({
     return x*2;
 })
