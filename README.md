@@ -1,7 +1,21 @@
 # React-contacts
 
+### Install npx globally if you need
+> Install npx module
+``` sh
+$ npm install -g npx
+```
+<br>
+> From create-react-app : npx comes with npm 5.2+ and higher, see instructions for older npm versions
+``` sh
+$ npx create-react-app my-app
+$ cd my-app
+$ npm start
+```
+
 ### Create React App
 > If not installed create-react-app module 
+- https://github.com/facebookincubator/create-react-app/blob/master/README.md#creating-an-app
 ``` sh
 $ npm install -g create-react-app
 ```
