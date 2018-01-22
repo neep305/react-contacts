@@ -5,8 +5,7 @@
 ``` sh
 $ npm install -g npx
 ```
-<br>
-> From create-react-app : npx comes with npm 5.2+ and higher, see instructions for older npm versions
+> From create-react-app, npx comes with npm 5.2+ and higher, see instructions for older npm versions
 ``` sh
 $ npx create-react-app my-app
 $ cd my-app
